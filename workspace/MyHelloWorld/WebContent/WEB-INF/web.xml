@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>MyHelloWorld</display-name>
+	<welcome-file-list>
+		<welcome-file>hello</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>theName</servlet-name>
+		<servlet-class>com.skilldistillery.servlets.MyHelloServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>theName</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+</web-app>

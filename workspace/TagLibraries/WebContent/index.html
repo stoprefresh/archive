@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TagLibraries</title>
+</head>
+<body>
+	<h2>Search for a Stock by symbol</h2>
+	<form action="stockPrice" method="GET">
+		<input type="text" name="symbol" /> <input type="submit" value="Submit" />
+	</form>
+	<br>
+	<br>
+	<br>
+
+	<h2>Search by the First letter of Name or Symbol</h2>
+	<form action="listStocks" method="GET">
+		<input type="text" name="search" /> 
+		<input type="submit" value="Search by First Letter" />
+	</form>
+
+
+	<p>
+		<a href="listStocks">List all Stocks</a>
+	</p>
+</body>
+</html>
